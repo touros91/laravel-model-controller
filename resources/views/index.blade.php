@@ -7,6 +7,16 @@
     <title>Movies</title>
 </head>
 <body>
-ciao
+    <h1>I migliori film da vedere</h1>
+    @foreach ($movies as $movie)
+        <ul>
+            <li>Titolo: {{$movie["title"]}}</li>
+            <li>Titolo Originale: {{$movie["original_title"]}}</li>
+            <li>Nazionalità: {{$movie["nationality"]}}</li>
+            <li>Data di uscita: {{$movie["date"]}}</li>
+            <li>Voto: {{$movie["vote"]}}</li>
+        </ul>
+    @endforeach
+</ul>
 </body>
 </html>
