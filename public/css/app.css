@@ -1,4 +1,4 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6,6 +6,7 @@
 
 body {
   background-color: #BFB7AE;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -25,6 +26,7 @@ header h1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 20px 0;
 }
 .container .movie {
   border: 3px solid #3C544D;
